@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="data:,">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Employee</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+<script>
+    function goToIndex(){
+        window.location.href = '/'
+    }
+</script>
+<body>
+    <div class="root">
+        <div class="card">
+            <h1 style="color: orangered">
+                Error, validation failed!
+            </h1>
+            <p class="errors">
+                %ERROR%
+            </p>
+            <p>
+                Please try entering data again! Click on Contact Us to continue
+            </p>
+            <button style="margin-top: 30px;" onclick="goToIndex()">
+                Contact Us
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>

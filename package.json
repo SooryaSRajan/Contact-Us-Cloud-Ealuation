@@ -1,0 +1,16 @@
+{
+  "name": "ContactUsForm",
+  "version": "1.0.0",
+  "description": "A simple web server for serving and validating a Contact Us page",
+  "main": "index.js",
+  "scripts": {
+    "run": "npx nodemon start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "email-validator": "^2.0.4",
+    "nodemon": "^2.0.15"
+  }
+}
